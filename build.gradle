@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.ts'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.ow2.asm:asm-tree:9.3')
+}
+
+jar {
+    manifest {
+        attributes(
+                'Premain-Class': 'me.ts.aprilfools.Agent'
+        )
+    }
+}
