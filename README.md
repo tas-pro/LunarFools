@@ -1,5 +1,7 @@
 # LunarFools
 
+This project is now obsolete with Lunar Client v2.5.3-2318.
+
 ![The image shows the Lunar Client April Fools main menu](./doc/main-menu.png)
 
 Re-enables the Lunar Client April Fools menu.
